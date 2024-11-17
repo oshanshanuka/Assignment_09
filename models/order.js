@@ -1,4 +1,4 @@
-function Order(orderId,date,customerId,discount,cash,balance,orderDetails,total){
+function Order(orderId, date, customerId, discount, cash, balance, orderDetails) {
     this.orderId = orderId;
     this.date = date;
     this.customerId = customerId;
@@ -6,5 +6,4 @@ function Order(orderId,date,customerId,discount,cash,balance,orderDetails,total)
     this.cash = cash;
     this.balance = balance;
     this.orderDetails = orderDetails;
-    this.total = total;
 }
