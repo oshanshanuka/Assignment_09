@@ -9,6 +9,7 @@ function getCustomerById(id) {
     return customerDatabase.find(c => c.id === id);
 }
 
+
 function getItemByCode(code) {
     return itemDatabase.find(i => i.code === code);
 }
